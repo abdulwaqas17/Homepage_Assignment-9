@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        body{
+            background-color: rgb(38, 39, 119);
+            color: white;
+        }
+        #table{
+            width: 100%;
+            background-color: black;
+            
+            
+        }
+        #tr{
+            height: 32px;
+        }
+        
+        a{
+            color: rgb(79, 221, 247);
+            font-size: 20px;
+        
+        }
+
+        table{
+            font-size: 20px;
+        }
+
+
+        div{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-top: 80px;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <table id="table">
+        <tr id="tr">
+            <th><a href="./index.html">Home Page</a></th>
+            <th><a href="./aboutme.html">About Me</a></th>
+            <th><a href="./information.html">Information</a></th>
+            <th><a href="./contactme.html">Contact Me </a></th>
+        </tr>
+    </table>
+
+    <h2>Fill the below Form:</h2>
+
+    <div>
+   <table>
+     <form action="">
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" placeholder="First Name"></td>
+        </tr> <br><br><br><br>
+
+        <tr>
+            <td>
+                Last Name:
+            </td>
+            <td>
+                <input type="text" placeholder="Last Name">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" value="waqas123@gmail.com" disabled></td>
+        </tr>
+
+        <tr>
+            <td>Contact No.</td>
+            <td><input type="number" placeholder="+923123456789"></td>
+        </tr>
+
+        <tr>
+            <td>Select Gender:</td>
+            <td><input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+            </td>
+        </tr>
+
+        <tr>
+            <td> Your Location:</td>
+             <td><select >
+                <option value="">Choose your Location</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Multan">Multan</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Peshawar">Peshawar</option>
+             </select></td>
+        </tr>
+
+        <tr>
+            <td>Check Your <br /> Skills:</td>
+            <td><input type="checkbox" checked>HTML <br>
+                <input type="checkbox">CSS   <br>
+                <input type="checkbox">Boostrap <br>
+                <input type="checkbox">Java Script
+            </td>
+        </tr>
+
+        <tr>
+            <td>Drop your <br> Picture:</td>
+            <td><input type="file"></td>
+        </tr>
+
+        <tr>
+            <td>Write your <br> Comment:</td>
+            <td><textarea placeholder="write your valuable comment here..." cols="30" rows="5"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>Submit your <br> Respones:</td>
+             <td><input type="submit"></td>
+        </tr>
+     </form>
+   </table>
+</div>
+</body>
+</html>
